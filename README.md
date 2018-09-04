@@ -1,8 +1,9 @@
 # py-al-algo-bootcamp
 
-digraph G {
-    A -> B
-    B -> C
-    B -> D
-    D -> E
-}
+### Table of Contents
+[Python Notes]()
+[Data Structures and Algorithms]()
+
+### Python Notes
+
+### Data Structures and Algorithms
