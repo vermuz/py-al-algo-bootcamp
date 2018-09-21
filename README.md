@@ -117,3 +117,17 @@ x >> 2 = 0000 0010
 x = 0000 1010
 x << 2 = 0010 1000
 ```
+
+#### Check Parity
+```
+def parity(x):
+    """
+    An even number has parity 0 because the remainder after dividing by 2 is 0 , 
+    while an odd number has parity 1 because the remainder after dividing by 2 is 1
+    """
+    result = 0
+    while x:
+        result ^= x & 1
+        x >>= 1
+    return result
+```
